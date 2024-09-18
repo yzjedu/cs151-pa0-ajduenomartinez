@@ -50,7 +50,7 @@ if type_of_assignment>10:
 
 #this is the calculation for the recommended amount of time for studying.
 recommended_time=((type_of_assignment+urgency_of_assignment)*difficulty_of_assignment)/24
-print(recommended_time)
+
 
 
 if recommended_time >= 2.5:

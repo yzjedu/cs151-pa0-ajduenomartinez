@@ -50,18 +50,18 @@ if type_of_assignment>10:
 
 #this is the calculation for the recommended amount of time for studying.
 recommended_time=((type_of_assignment+urgency_of_assignment)*difficulty_of_assignment)/24
+print(recommended_time)
 
 
-
-if recommended_time > 2.5:
+if recommended_time >= 2.5:
     print("The minimum recommended amount of time you should spend on your assignment is two and a half hours.")
-elif recommended_time > 2:
+elif recommended_time >= 2:
     print("The minimum recommended amount of time you should spend on your assignment is two hours.")
-elif recommended_time > 1.5:
+elif recommended_time >= 1.5:
     print("The minimum recommended amount of time you should spend on your assignment is an hour and a half.")
-elif recommended_time > 1:
+elif recommended_time >= 1:
     print("The minimum recommended amount of time you should spend on your assignment is an hour.")
-elif recommended_time > 0.5:
+elif recommended_time >= 0.5:
     print("The minimum recommended amount of time you should spend on your assignment is thirty minutes.")
 elif recommended_time < 0.5:
     print("The minimum recommended amount of time you should spend on your assignment is less than thirty minutes.")
